@@ -7,10 +7,13 @@ function Footer() {
             <div className="footer-divider"></div>
             <div className="footer-content">
                 <div className="left-container">
-                    <p>&copy; 2024 Your Company. All rights reserved.</p>
+                    <p className="left-text">© 2024 All rights reserved.<br></br>
+                                Developed by Cyber Knight.<br></br>
+                                Privacy Policy | Terms of Service | Contact Us
+                    </p>
                 </div>
                 <div className="right-container">
-                    <p>Contact us: info@yourcompany.com</p>
+                    <p className="right-text">Follow us on: Facebook | Instagram | Twitter</p>
                 </div>
             </div>
         </div>
