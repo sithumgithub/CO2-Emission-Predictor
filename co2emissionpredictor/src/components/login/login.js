@@ -59,6 +59,7 @@ function Login() {
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
+                    placeholder="Type your email" 
                     required
                 />
             </div>
@@ -70,6 +71,7 @@ function Login() {
                     name="password"
                     value={formData.password}
                     onChange={handleChange}
+                    placeholder="Type your password" 
                     required
                 />
             </div>

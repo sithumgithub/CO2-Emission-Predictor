@@ -4,7 +4,9 @@ import { useNavigate } from 'react-router-dom';
 import gmailIcon from '../../assests/gmail.png';
 import facebookIcon from '../../assests/facebook.png';
 import xIcon from '../../assests/x.png';
-import './signUp.css'
+import './signUp.css';
+import { FaEnvelope } from 'react-icons/fa';
+import { HiOutlineAtSymbol } from "react-icons/hi";
 
 
 export default function Signup(){
@@ -55,25 +57,33 @@ export default function Signup(){
                 <h2>Sign In</h2>
                 <div className="form-group">
                     <label htmlFor="name">Name</label>
+                    <div className="input-with-icon">
+                         <img src={facebookIcon} alt="Email Icon" className="input-icon" />
                     <input
                         type="text"
                         id="name"
                         name="name"
                         value={formData.name}
                         onChange={handleChange}
+                        placeholder="Type your name" 
                         required
                     />
+                    </div>
                 </div>
                 <div className="form-group">
-                    <label htmlFor="email">Email</label>
+                    <label htmlFor="email" >Email</label>
+                    <div className="input-with-icon">
+                         <img src={gmailIcon} alt="Email Icon" className="input-icon" />
                     <input
                         type="email"
                         id="email"
                         name="email"
                         value={formData.email}
                         onChange={handleChange}
+                        placeholder=" @ Type your email" 
                         required
                     />
+                    </div>
                 </div>
                 <div className="form-group">
                     <label htmlFor="password">Password</label>
@@ -83,6 +93,7 @@ export default function Signup(){
                         name="password"
                         value={formData.password}
                         onChange={handleChange}
+                        placeholder="Type your password" 
                         required
                     />
                 </div>
