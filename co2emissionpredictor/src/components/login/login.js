@@ -53,6 +53,8 @@ function Login() {
             
             <div className="form-group">
                 <label htmlFor="email">Email</label>
+                <div className="input-with-icon">
+                    <img src={gmailIcon} alt="Email Icon" className="input-icon" />
                 <input
                     type="email"
                     id="email"
@@ -62,9 +64,12 @@ function Login() {
                     placeholder="Type your email" 
                     required
                 />
+                </div>
             </div>
             <div className="form-group">
                 <label htmlFor="password">Password</label>
+                <div className="input-with-icon">
+                    <img src={gmailIcon} alt="Email Icon" className="input-icon" />
                 <input
                     type="password"
                     id="password"
@@ -74,6 +79,7 @@ function Login() {
                     placeholder="Type your password" 
                     required
                 />
+                </div>
             </div>
             <button type="submit" className="signin-button">Log In</button>
            <br></br>

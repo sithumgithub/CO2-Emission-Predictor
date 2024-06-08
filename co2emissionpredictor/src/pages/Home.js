@@ -18,6 +18,10 @@ export default function Home() {
     const handleSignUpClick = () => {
         navigate('/signup')
     };
+    const handlePredictionUpClick = () => {
+        navigate('/prediction')
+    };
+
 
     return (
         <>
@@ -31,6 +35,7 @@ export default function Home() {
                 </div>
                 <div className="right-container">
                 <button type='submit' onClick={handleSignUpClick} ><b>Sign Up</b></button>
+                <button type='submit' onClick={handlePredictionUpClick} ><b>Predictor</b></button>
                 </div>
             </div>
 

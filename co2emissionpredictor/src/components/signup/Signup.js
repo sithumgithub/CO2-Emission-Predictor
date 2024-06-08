@@ -5,8 +5,7 @@ import gmailIcon from '../../assests/gmail.png';
 import facebookIcon from '../../assests/facebook.png';
 import xIcon from '../../assests/x.png';
 import './signUp.css';
-import { FaEnvelope } from 'react-icons/fa';
-import { HiOutlineAtSymbol } from "react-icons/hi";
+
 
 
 export default function Signup(){
@@ -58,7 +57,7 @@ export default function Signup(){
                 <div className="form-group">
                     <label htmlFor="name">Name</label>
                     <div className="input-with-icon">
-                         <img src={facebookIcon} alt="Email Icon" className="input-icon" />
+                    <img src={xIcon} alt="Email Icon" className="input-icon" />
                     <input
                         type="text"
                         id="name"
@@ -73,20 +72,22 @@ export default function Signup(){
                 <div className="form-group">
                     <label htmlFor="email" >Email</label>
                     <div className="input-with-icon">
-                         <img src={gmailIcon} alt="Email Icon" className="input-icon" />
+                    <img src={gmailIcon} alt="Email Icon" className="input-icon" />
                     <input
                         type="email"
                         id="email"
                         name="email"
                         value={formData.email}
                         onChange={handleChange}
-                        placeholder=" @ Type your email" 
+                        placeholder="Type your email" 
                         required
                     />
-                    </div>
+                   </div>
                 </div>
                 <div className="form-group">
                     <label htmlFor="password">Password</label>
+                    <div className="input-with-icon">
+                    <img src={facebookIcon} alt="Email Icon" className="input-icon" />
                     <input
                         type="password"
                         id="password"
@@ -96,6 +97,7 @@ export default function Signup(){
                         placeholder="Type your password" 
                         required
                     />
+                </div>
                 </div>
                 <button type="submit" className="signin-button">Sign In</button>
                <br></br>
