@@ -1,0 +1,140 @@
+/* SignIn.css */
+.second-cont{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -60px;
+}
+
+.signin-form {
+    background: #6BBB86;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    opacity: 80%;
+}
+
+.signin-form h2 {
+    background-color: #8CF07C; /* Background color for the heading */
+    color: rgb(0, 0, 0); /* Text color */
+    padding: 2px; /* Padding inside the heading */
+    border-radius: 8px; /* Optional: rounded corners */
+    display: inline-block; /* To fit the background to the text */
+    font-size: 20px;
+    width: 130px;
+}
+.signin-form label{
+    color: black; 
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+    position: relative;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #C1C1C1;
+    opacity: 80%;
+    padding: 10px 40px 10px 10px;
+}
+
+.form-group .icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000000; /* Icon color */
+    padding-left: 40px;
+}
+
+.form-group input::placeholder {
+    opacity: 100%;
+    font-weight: bold;
+    color: #f1e8e8; /* Change this to your desired placeholder color */
+}
+
+.signin-button {
+    background: linear-gradient(to bottom, #a1e495, #5bd311);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+    opacity: 100%;
+}
+
+.signin-button:hover {
+    background-color: #0056b3;
+}
+.social-login1{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.social-login1 img{
+    margin-left: 20px;
+}
+.left-container {
+    text-align: left;
+    line-height: 1.2; /* Adjust this value to control the space between lines */
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    justify-content: space-between; 
+    width: 100%;
+    margin-top: 20px;
+}
+
+.container3 button{
+    width: 142px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #8CF07C;
+    margin-right: 20px;
+}
+
+.input-with-icon .input-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    top: 50px;
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    z-index: 10; /* Ensures the icon appears above the input */
+}
+
+.input-with-icon input {
+    width: 100%;
+    padding: 10px 10px 10px 40px; /* Adjust padding to make space for the icon */
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}

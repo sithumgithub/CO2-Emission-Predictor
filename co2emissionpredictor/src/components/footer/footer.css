@@ -1,0 +1,43 @@
+/* Footer.css */
+.footer {
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-divider {
+    height: 2px;
+    width: 100%;
+    background-color: #ffffff; /* White divisor line */
+    margin-bottom: 10px;
+}
+
+.footer-content {
+    font-family: 'Poppins', sans-serif;
+    color: #fcfcfc; /* Dark gray text color */
+    display: flex;
+    justify-content: space-between; /* Space between containers */
+}
+
+.left-container {
+    text-align: left;
+    
+}
+.left-text{
+    font-size: 10px;
+    line-height: 1.4;
+}
+
+.right-container {
+    text-align: right;
+}
+
+.right-text{
+    font-size: 10px;
+}
+
+.footer-content p {
+    margin: 5px 0; /* Space between paragraphs */
+}
