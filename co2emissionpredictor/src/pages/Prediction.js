@@ -8,40 +8,61 @@ export default function Prediction() {
       <Header />
       <div className="home-background">
         <div className="overlay">
-          <div className='predict-main'>
-          <div className="signin1">
-            <h2>CO2 Prediction</h2>
-          </div>
-          <div className="forms-container1">
-            <div className="form-column">
-               <form>
-                <div className="form-group">
-                  <label htmlFor="maker">Maker:</label>
-                  <input type="text" id="maker" name="maker" />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="vehicle-class">Vehicle Class:</label>
-                  <input type="text" id="vehicle-class" name="vehicle-class" />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="engine-type">Engine Type:</label>
-                  <input type="text" id="engine-type" name="engine-type" />
-                </div>
-              </form>
+          <div className="predict-main">
+            <div className="signin1">
+              <h2>CO2 Prediction</h2>
             </div>
-            <div className="form-column">
-              <form>
-               <div className="form-group">
-                  <label htmlFor="fuel-road">Fuel Consumption Road:</label>
-                  <input type="text" id="fuel-road" name="fuel-road" />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="fuel-hwy">Fuel Consumption Hwy:</label>
-                  <input type="text" id="fuel-hwy" name="fuel-hwy" />
-                </div>
-              </form>
+            <div className="forms-container1">
+              <div className="form-column">
+                <form>
+                  <div className="form-group">
+                    <label htmlFor="maker">Maker:</label>
+                    <input type="text" id="maker" name="maker" />
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="vehicle-class">Vehicle Class:</label>
+                    <input type="text" id="vehicle-class" name="vehicle-class" />
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="engine-type">Engine Type:</label>
+                    <input type="text" id="engine-type" name="engine-type" />
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="cylinders">Cylinders:</label>
+                    <input type="text" id="cylinders" name="cylinders" />
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="transmission">Transmission :</label>
+                    <input type="text" id="transmission" name="transmission" />
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="fuel-type">Fuel Type :</label>
+                    <input type="text" id="fuel-type" name="fuel-type" />
+                  </div>
+                </form>
+              </div>
+              <div className="form-column">
+                <form>
+                  <div className="form-group">
+                    <label htmlFor="fuel-road-city">Fuel Consumption <br></br>[City (L/100 Km)] :</label>
+                    <input type="text" id="fuel-road-city" name="fuel-road-city" />
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="fuel-road-hwy">Fuel Consumption<br></br> [Hwy (L/100 Km)] :</label>
+                    <input type="text" id="fuel-road-hwy" name="fuel-road-hwy" />
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="fuel-road-comb">Fuel Consumption <br></br>[Comb (mpg)] :</label>
+                    <input type="text" id="fuel-road-comb" name="fuel-road-comb" />
+                  </div>
+
+                  <div className="form-group">
+                    <label htmlFor="fuel-road-comb">Fuel Consumption <br></br>[Comb (mpg)] :</label>
+                    <input type="text" id="fuel-road-comb" name="fuel-road-comb" />
+                  </div>  
+                </form>
+              </div>
             </div>
-          </div>
           </div>
         </div>
       </div>
